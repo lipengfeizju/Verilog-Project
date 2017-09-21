@@ -1,0 +1,25 @@
+# Output products list for <rom3>
+_xmsgs\pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_v6_3_readme.txt
+rom3.asy
+rom3.gise
+rom3.mif
+rom3.ngc
+rom3.sym
+rom3.v
+rom3.veo
+rom3.xco
+rom3.xise
+rom3_flist.txt
+rom3_ste\example_design\rom3_top.ucf
+rom3_ste\example_design\rom3_top.vhd
+rom3_ste\example_design\rom3_top.xdc
+rom3_ste\implement\implement.bat
+rom3_ste\implement\implement.sh
+rom3_ste\implement\planAhead_rdn.bat
+rom3_ste\implement\planAhead_rdn.sh
+rom3_ste\implement\planAhead_rdn.tcl
+rom3_ste\implement\xst.prj
+rom3_ste\implement\xst.scr
+rom3_xmdf.tcl

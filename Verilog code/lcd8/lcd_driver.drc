@@ -1,0 +1,41 @@
+Release 13.4 Drc O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sun Nov 06 21:18:45 2016
+
+drc -z lcd_driver.ncd lcd_driver.pcf
+
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA8> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA9> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA10> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA11> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA12> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA13> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA14> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA15> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+DRC detected 0 errors and 16 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

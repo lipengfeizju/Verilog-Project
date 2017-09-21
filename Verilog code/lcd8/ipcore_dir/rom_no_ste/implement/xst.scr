@@ -1,0 +1,14 @@
+
+run
+-ifmt VHDL
+-ent rom_no_top 
+-p xc3s700a-fg484-4
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn rom_no_top 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

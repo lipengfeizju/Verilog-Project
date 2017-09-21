@@ -1,0 +1,203 @@
+Release 13.4 Map O.87xd (nt64)
+Xilinx Map Application Log File for Design 'lcd_driver'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off
+-c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+Target Device  : xc3s700a
+Target Package : fg484
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Sun Nov 06 21:16:50 2016
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	Mcompar_lcd_counter_cmp_ge0000_cy<20>
+   	Mcount_lcd_counter_cy<0>
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	convert1/speed_select/Mcompar_cnt_cmp_lt0000_cy<8>
+   	convert1/speed_select/Mcount_cnt_cy<0>
+WARNING:Pack:266 - The function generator
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001311
+   failed to merge with F5 multiplexer
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000141_
+   9_f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom000071_7
+   failed to merge with F5 multiplexer
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000801_
+   6_f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator Mrom__varindex0004121_12 failed to
+   merge with F5 multiplexer Mrom__varindex0005121_11_f5.  There is a conflict
+   for the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000211_
+   3 failed to merge with F5 multiplexer
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000941_
+   2_f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000141_
+   3 failed to merge with F5 multiplexer
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000871_
+   2_f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom1/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000201_81
+   failed to merge with F5 multiplexer
+   rom1/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000871_7_
+   f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000231
+   _4 failed to merge with F5 multiplexer
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000106
+   1_2_f5.  There is more than one F5MUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000231
+   _3 failed to merge with F5 multiplexer
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000106
+   1_2_f5.  There is a conflict for the FXMUX.  The design will exhibit
+   suboptimal timing.
+WARNING:Pack:266 - The function generator
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001281
+   failed to merge with F5 multiplexer
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001301_5
+   _f5.  There is a conflict for the GYMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001011
+   failed to merge with F5 multiplexer
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001071_5
+   _f5.  There is a conflict for the GYMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000151
+   _4 failed to merge with F5 multiplexer
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000981
+   _2_f5.  There is more than one F5MUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000151
+   _3 failed to merge with F5 multiplexer
+   rom_out/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000981
+   _2_f5.  There is a conflict for the FXMUX.  The design will exhibit
+   suboptimal timing.
+WARNING:Pack:266 - The function generator
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom0000311
+   failed to merge with F5 multiplexer
+   rom_in/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom000071_1
+   1_f5.  There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom4/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001311
+   failed to merge with F5 multiplexer
+   rom4/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001361_5
+   _f5.  There is a conflict for the GYMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom4/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001531
+   failed to merge with F5 multiplexer
+   rom4/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001561_5
+   _f5.  There is a conflict for the GYMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom00001151
+   failed to merge with F5 multiplexer
+   rom0/U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mrom_spo_int_rom000012111_
+   5_f5.  There is a conflict for the GYMUX.  The design will exhibit suboptimal
+   timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA8> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA9> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA10> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA11> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA12> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA13> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA14> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA15> on
+   block:<Mrom__varindex0012>:<RAMB16BWE_RAMB16BWE>.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   34
+Logic Utilization:
+  Number of Slice Flip Flops:           587 out of  11,776    4%
+  Number of 4 input LUTs:             2,504 out of  11,776   21%
+Logic Distribution:
+  Number of occupied Slices:          1,554 out of   5,888   26%
+    Number of Slices containing only related logic:   1,554 out of   1,554 100%
+    Number of Slices containing unrelated logic:          0 out of   1,554   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,598 out of  11,776   22%
+    Number used as logic:             2,504
+    Number used as a route-thru:         94
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                177 out of     372   47%
+  Number of BUFGMUXs:                     2 out of      24    8%
+  Number of RAMB16BWEs:                   1 out of      20    5%
+
+Average Fanout of Non-Clock Nets:                4.10
+
+Peak Memory Usage:  294 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   3 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "lcd_driver_map.mrp" for details.

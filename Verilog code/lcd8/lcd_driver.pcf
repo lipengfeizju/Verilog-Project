@@ -1,0 +1,48 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Sun Nov 06 21:16:53 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rd" LOCATE = SITE "V16" LEVEL 1;
+COMP "RST_LCD" LOCATE = SITE "U8" LEVEL 1;
+COMP "clk" LOCATE = SITE "E12" LEVEL 1;
+COMP "lcd_data<0>" LOCATE = SITE "AB2" LEVEL 1;
+COMP "lcd_data<1>" LOCATE = SITE "AA3" LEVEL 1;
+COMP "lcd_data<2>" LOCATE = SITE "AB3" LEVEL 1;
+COMP "lcd_data<3>" LOCATE = SITE "AA4" LEVEL 1;
+COMP "lcd_data<4>" LOCATE = SITE "AA6" LEVEL 1;
+COMP "lcd_data<5>" LOCATE = SITE "AB6" LEVEL 1;
+COMP "lcd_data<6>" LOCATE = SITE "Y7" LEVEL 1;
+COMP "lcd_data<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "lcd_data<8>" LOCATE = SITE "AA8" LEVEL 1;
+COMP "lcd_data<9>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "lcd_db<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "lcd_db<1>" LOCATE = SITE "AB18" LEVEL 1;
+COMP "lcd_db<2>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "lcd_db<3>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "lcd_db<4>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "lcd_db<5>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "lcd_db<6>" LOCATE = SITE "AB16" LEVEL 1;
+COMP "lcd_db<7>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "lcd_data<10>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "lcd_data<11>" LOCATE = SITE "AB10" LEVEL 1;
+COMP "lcd_data<12>" LOCATE = SITE "AB19" LEVEL 1;
+COMP "lcd_data<13>" LOCATE = SITE "AA19" LEVEL 1;
+COMP "lcd_data<14>" LOCATE = SITE "AB21" LEVEL 1;
+COMP "lcd_data<15>" LOCATE = SITE "AA21" LEVEL 1;
+COMP "lcd_e" LOCATE = SITE "AB4" LEVEL 1;
+COMP "reset" LOCATE = SITE "V8" LEVEL 1;
+COMP "press" LOCATE = SITE "R13" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "U10" LEVEL 1;
+COMP "rst" LOCATE = SITE "A12" LEVEL 1;
+COMP "rs232_rx" LOCATE = SITE "B4" LEVEL 1;
+COMP "rs232_tx" LOCATE = SITE "A4" LEVEL 1;
+COMP "cs" LOCATE = SITE "V14" LEVEL 1;
+COMP "rs" LOCATE = SITE "V15" LEVEL 1;
+COMP "wr" LOCATE = SITE "W16" LEVEL 1;
+COMP "lcd_rs" LOCATE = SITE "Y14" LEVEL 1;
+COMP "lcd_rw" LOCATE = SITE "W13" LEVEL 1;
+COMP "rotary_a" LOCATE = SITE "T13" LEVEL 1;
+COMP "rotary_b" LOCATE = SITE "R14" LEVEL 1;
+SCHEMATIC END;
+

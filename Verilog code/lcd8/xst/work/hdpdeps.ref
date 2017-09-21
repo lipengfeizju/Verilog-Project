@@ -1,0 +1,10 @@
+V3 5
+FL C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/convert/lcd16x2_ctrl.vhd 2016/10/21.10:58:12 O.87xd
+EN work/lcd16x2_ctrl 1478438182 \
+      FL C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/convert/lcd16x2_ctrl.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/lcd16x2_ctrl/rtl 1478438183 \
+      FL C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/convert/lcd16x2_ctrl.vhd \
+      EN work/lcd16x2_ctrl 1478438182
+FL C:/Users/lipengfei/Desktop/combine/lcd8/convert/lcd16x2_ctrl.vhd 2016/10/21.10:58:12 O.87xd
+FL E:/shushe/week8/lcd7/convert/lcd16x2_ctrl.vhd 2016/10/21.10:58:12 O.87xd

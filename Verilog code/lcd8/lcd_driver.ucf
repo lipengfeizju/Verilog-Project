@@ -1,0 +1,57 @@
+NET "clk"        			LOC = "E12"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "reset"            	LOC = "V8"  | IOSTANDARD = LVCMOS33 ; # SW0
+
+NET "lcd_data<15>" LOC = "AA21" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<14>" LOC = "AB21" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<13>" LOC = "AA19" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<12>" LOC = "AB19" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<11>" LOC = "AB10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<10>" LOC = "AA10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<9>" LOC = "AB8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<8>" LOC = "AA8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<7>" LOC = "AB7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<6>" LOC = "Y7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<5>" LOC = "AB6" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<4>" LOC = "AA6" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<3>" LOC = "AA4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<2>" LOC = "AB3" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<1>" LOC = "AA3" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "lcd_data<0>" LOC = "AB2" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+
+
+NET "rst"        		LOC = "A12"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "cs"        		LOC = "V14"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "rs"        		LOC = "V15"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "wr"        		LOC = "W16"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "rd"        		LOC = "V16"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+
+
+NET "lcd_db<7>"      LOC = "Y15"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<6>"      LOC = "AB16"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<5>"      LOC = "Y16"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<4>"      LOC = "AA12"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<3>"      LOC = "AB12"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<2>"      LOC = "AB17"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<1>"      LOC = "AB18"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_db<0>"      LOC = "Y13"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+NET "lcd_e"      LOC = "AB4"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_rs"      LOC = "Y14"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "lcd_rw"      LOC = "W13"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "RST_LCD"      LOC = "U8"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+
+
+
+//NET "clk"        LOC = "E12"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "rst_n"        LOC = "U10"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+NET "rs232_rx"      LOC = "B4"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "rs232_tx"      LOC = "A4"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+NET "rotary_a"     LOC = "T13" | IOSTANDARD = LVTTL | PULLUP;
+NET "rotary_b"     LOC = "R14" | IOSTANDARD = LVTTL | PULLUP;
+NET "press"       LOC = "R13" | IOSTANDARD = LVTTL | PULLDOWN;
+
+ 

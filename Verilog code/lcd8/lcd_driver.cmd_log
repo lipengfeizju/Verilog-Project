@@ -1,0 +1,326 @@
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+xst -intstyle ise -ifn "E:/shushe/week6/lcd7/lcd_driver.xst" -ofn "E:/shushe/week6/lcd7/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/shushe/week7/lcd1.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+xst -intstyle ise -ifn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+xst -intstyle ise -ifn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/lipengfei/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.xst" -ofn "C:/Users/Administrator.PC-201509281501/Desktop/combine/lcd8/lcd_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc lcd_driver.ucf -p xc3s700a-fg484-4 lcd_driver.ngc lcd_driver.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o lcd_driver_map.ncd lcd_driver.ngd lcd_driver.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_map.ncd lcd_driver.ncd lcd_driver.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver.twx lcd_driver.ncd -o lcd_driver.twr lcd_driver.pcf -ucf lcd_driver.ucf 
+bitgen -intstyle ise -f lcd_driver.ut lcd_driver.ncd 

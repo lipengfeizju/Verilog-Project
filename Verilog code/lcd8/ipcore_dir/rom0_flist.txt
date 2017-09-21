@@ -1,0 +1,24 @@
+# Output products list for <rom0>
+dist_mem_gen_ds322.pdf
+dist_mem_gen_v6_3_readme.txt
+rom0.asy
+rom0.gise
+rom0.mif
+rom0.ngc
+rom0.sym
+rom0.v
+rom0.veo
+rom0.xco
+rom0.xise
+rom0_flist.txt
+rom0_ste\example_design\rom0_top.ucf
+rom0_ste\example_design\rom0_top.vhd
+rom0_ste\example_design\rom0_top.xdc
+rom0_ste\implement\implement.bat
+rom0_ste\implement\implement.sh
+rom0_ste\implement\planAhead_rdn.bat
+rom0_ste\implement\planAhead_rdn.sh
+rom0_ste\implement\planAhead_rdn.tcl
+rom0_ste\implement\xst.prj
+rom0_ste\implement\xst.scr
+rom0_xmdf.tcl

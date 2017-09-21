@@ -1,0 +1,25 @@
+# Output products list for <rom4>
+_xmsgs\pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_v6_3_readme.txt
+rom4.asy
+rom4.gise
+rom4.mif
+rom4.ngc
+rom4.sym
+rom4.v
+rom4.veo
+rom4.xco
+rom4.xise
+rom4_flist.txt
+rom4_ste\example_design\rom4_top.ucf
+rom4_ste\example_design\rom4_top.vhd
+rom4_ste\example_design\rom4_top.xdc
+rom4_ste\implement\implement.bat
+rom4_ste\implement\implement.sh
+rom4_ste\implement\planAhead_rdn.bat
+rom4_ste\implement\planAhead_rdn.sh
+rom4_ste\implement\planAhead_rdn.tcl
+rom4_ste\implement\xst.prj
+rom4_ste\implement\xst.scr
+rom4_xmdf.tcl
